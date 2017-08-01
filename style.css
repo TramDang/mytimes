@@ -1,0 +1,252 @@
+
+.font{
+font-family: verdana;
+font-size: 14px;
+font-weight: bold;
+color: MediumAquamarine;
+padding: 10px;
+}
+
+#logo{
+display: flex;
+align-items: center;
+padding: 5px;
+border-bottom: 2px solid lightgray;
+position: fixed;
+z-index: 5;
+width: 100%;
+height: 70px;
+background-color: white;
+}
+
+.font a{
+color: black;
+padding: 20px;
+}
+.navigation{
+display: inline-block;
+width: 85%;
+  text-align: right;
+  position: fixed;
+  margin-top: -20px;
+  z-index: 5;
+}
+
+
+body{
+ font-family: Georgia;
+ font-size: 17px;
+ color: black;
+margin: 0px;
+padding: 0px;
+}
+#container{
+position: relative;
+display: flex;
+top: 100px;
+padding-top: : 100px;
+margin-bottom: 200px;
+
+}
+.column.large{
+  display: flex;
+  width: 630px;
+  flex-wrap: wrap;
+  flex-grow: 3;
+
+}
+.main{
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.fall,.camera,.cats{
+
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  align-items:center;
+  text-align: center;
+}
+
+h3{
+
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+}
+.tuna{
+
+  width: 630px;
+  margin: 10px;
+
+}
+.mainstory{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 350px;
+  width: 100%;
+
+}
+
+
+.orca{
+display: flex;
+flex-direction: column;
+width: 290px;
+
+margin: 10px;
+margin-right: 20px;
+
+
+}
+.fall{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  display: flex;
+  height: 250px;
+  width: 290px;
+  margin: 0;
+
+}
+.burger{
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+
+  margin: 10px;
+  margin-left: 20px;
+
+}
+.camera{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  display: flex;
+  height: 250px;
+  width: 290px;
+  margin: 0;
+  flex-grow: 2;
+
+}
+.column.medium{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  flex-grow: 3;
+
+
+
+}
+.fbi{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  margin: 10px;
+
+
+}
+
+.cats{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  display: flex;
+
+  width: 300px;
+  height: 250px;
+}
+
+.column.small{
+  display: flex;
+  width: 240px;
+  height: 500px;
+
+  margin: 10px;
+  flex-wrap: wrap;
+
+
+
+}
+.cookie{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
+  width: 100%;
+  height: 250px;
+  display: flex;
+
+}
+
+nav{
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+
+
+.longlist{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+.emogi,.youtube,.Home,.ad,.fini,.ill{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+#end{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.myt{
+  display: flex;
+
+
+
+}
+.title{
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+
+}
+.sign{
+  display: flex;
+  font-size: 40px;
+  color: white;
+  padding-top: 5px;
+  padding-right: 30px;
+
+
+}
+.block{
+  display: inline-block;
+  padding-top: 25px;
+
+
+}
+.block a{
+  color: black;
+  padding-right: 20px;
+
+}
+
+.copyright{
+  display: block;
+  font-size: 12px;
+
+}
